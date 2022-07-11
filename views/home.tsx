@@ -9,7 +9,7 @@ import {
 export const HomePage = () => {
   return (
     <HStack w="100vw">
-      <Flex w="100%" h="100vh" align="center" justify="center">
+      <Flex w="100%" h="100vh" minH={1117} align="center" justify="center">
         <VStack>
           <Image
             src="/images/Top-trainer-1.png"
@@ -26,7 +26,7 @@ export const HomePage = () => {
               Follow us to learn more
             </Text>
           </Box>
-          <HStack spacing={4} pt={6}>
+          <HStack spacing={4} pt={6} pb={2}>
             <SocialIcon
               alt="Instagram"
               url="https://www.instagram.com/toptrainer_fitness/"
@@ -43,6 +43,7 @@ export const HomePage = () => {
       <Box
         w={{ base: 0, md: "100%" }}
         h="100vh"
+        minH={1117}
         boxShadow="inset 30px 30px 90px rgba(0, 0, 0, 0.6)"
         backgroundImage="/images/rightSideContainer.png"
         backgroundRepeat="no-repeat"
