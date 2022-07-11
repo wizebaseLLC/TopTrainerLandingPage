@@ -18,7 +18,6 @@ export const HomePage = () => {
             height={350}
           />
           <Box pt={12}>
-            {/* <EmailTextField /> */}
             <MailChimpSignUp />
           </Box>
 
@@ -30,12 +29,12 @@ export const HomePage = () => {
           <HStack spacing={4} pt={6}>
             <SocialIcon
               alt="Instagram"
-              url="https://www.instagram.com/ toptrainer_fitness/"
+              url="https://www.instagram.com/toptrainer_fitness/"
               iconType={SocialIconType.Instagram}
             />
             <SocialIcon
               alt="TikTok"
-              url="https://www.instagram.com/toptrainer_fitness/"
+              url="https://www.tiktok.com/@toptrainerfitness"
               iconType={SocialIconType.TikTok}
             />
           </HStack>
