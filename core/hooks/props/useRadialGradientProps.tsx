@@ -1,4 +1,4 @@
-import * as gradients from "../../../styles/constants";
+import gradients from "../../../styles/constants";
 
 const useRadialGradientProps = () => ({
   bgGradient: gradients.K_GRADIENT4,

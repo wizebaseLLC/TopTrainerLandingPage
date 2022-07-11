@@ -1,4 +1,4 @@
-import * as gradients from "../../../styles/constants";
+import gradients from "../../../styles/constants";
 
 const useTertiaryGradientProps = () => ({
   bgGradient: gradients.K_GRADIENT3,
